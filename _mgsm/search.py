@@ -347,8 +347,8 @@ if __name__ == "__main__":
     parser.add_argument('--debug_max', type=int, default=3)
     parser.add_argument('--model',
                         type=str,
-                        default='gpt-4o-2024-05-13',
-                        choices=['gpt-4-turbo-2024-04-09', 'gpt-3.5-turbo-0125', 'gpt-4o-2024-05-13'])
+                        default='gpt-4o-mini',
+                        choices=['gpt-4o-2024-08-06', 'gpt-4o-mini', 'gpt-4-turbo-preview'])
 
     args = parser.parse_args()
     # search
